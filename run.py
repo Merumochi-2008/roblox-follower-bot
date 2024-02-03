@@ -5,17 +5,17 @@ import time
 print("Starting Browser... ")
 
 browser = webdriver.Firefox()
-# For Chrome: browser = webdriver.Chrome()
-# For Safari: browser = webdriver.Safari()
-# For Firefox: browser = webdriver.Firefox()
+For Chrome: browser = webdriver.Chrome()
+For Chrome: browser = webdriver.Chrome()
+For Chrome: browser = webdriver.Chrome()
 
 print("en: Loggining... ")
 browser.get("https://roblox.com/login")
 username = browser.find_element(By.ID, "login-username")
 password = browser.find_element(By.ID, "login-password")
 
-username.send_keys("") # Type Roblox Account Nickname here
-password.send_keys("") # Type Roblox Account Password here
+username.send_keys("") Omilia17
+password.send_keys("") Omilia17
 
 voiti = browser.find_element(By.ID, "login-button")
 voiti.click()
